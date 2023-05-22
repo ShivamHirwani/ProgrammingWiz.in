@@ -4,7 +4,6 @@
 /*Themes for the website*/
 :root {
   font-size: 16px;
-  font-family: 'Open Sans';
   --text: #0a1a11;
   --text-secondary: #ececec;
   --bg-color: #daf1e4;
@@ -15,6 +14,8 @@
   --accent:#5dc08a;
   --bg-nav:#ADDFC4;
   --active-input:#8DD2AD;
+  font-family: 'Bodoni Moda', serif;
+  font-family: 'Poppins', sans-serif;
 }
 /* 
 :root[data-theme="light"]{
@@ -58,6 +59,15 @@ body::-webkit-scrollbar-thumb {
 main {
   margin-left: 5rem;
   padding: 1rem;
+}
+
+a{
+  text-decoration: none;
+  color: var(--text);
+}
+
+.nav-icons{
+  fill: var(--primary-button);
 }
 
 .navbar {
@@ -811,16 +821,24 @@ hr {
   background-image: url('img/banner.png');
 }
 
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Optional styles to set the height and width of the container */
+  height: 100vh;
+}
+
 .content-container{
-  height: 100%;
+  /* height: 100%; */
   width: 800px;
   background: var(--bg-nav);
   color: var(--text);
-  margin-left: 250px;
-  margin-top: 28px;
+  margin-left: 14%;
+  /* margin-top: 28px; */
   padding: 24px;
+  
 }
-
 .Related-blogs{
   color: var(--text);
   display: flex;
@@ -857,13 +875,13 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 50px;
-  padding-left: 450px;
+  margin: 10px;
+  align-items: center;
 }
 
 .news-blog h1{
   padding: 0;
-  margin: 0;
+  margin-left: 13;
 }
 
 /* drop down section in online code editor*/
@@ -1040,6 +1058,10 @@ hr {
     width: 50px;
     height: 30px;
     font-size: 10px;
+  }
+
+  .news-blog button{
+    margin-bottom: 500px;
   }
 
   #search-bar{
