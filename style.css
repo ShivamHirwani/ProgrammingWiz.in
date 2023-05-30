@@ -1,4 +1,4 @@
-@import url('https://rsms.me/inter/inter-ui.css');
+/* @import url('https://rsms.me/inter/inter-ui.css'); */
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Poppins:wght@300&display=swap');
 
 /*Themes for the website*/
@@ -683,6 +683,7 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: left;
 }
 
 .blog-card {
@@ -698,7 +699,7 @@ hr {
 }
 
 .card-image1{
-  background-image: url('img/qwik.png');
+  background-image: url('img/web3.jpg');
 }
 
 .card_title h1 {
@@ -837,7 +838,7 @@ hr {
   margin-left: 14%;
   /* margin-top: 28px; */
   padding: 24px;
-  
+  text-align: left;
 }
 .Related-blogs{
   color: var(--text);
